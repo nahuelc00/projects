@@ -64,6 +64,7 @@ body {
   width: 200px;
   height: 200px;
   margin: 0 0 15px 0;
+  border-radius:100px;
 }
 
 .proyect__link-demo {
