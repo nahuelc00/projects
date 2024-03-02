@@ -6,10 +6,8 @@ function render(title, description, imgUrl, linkDemo, linkGithub) {
     <h3 class="proyect__title">${title}</h3>
     <p class="proyect__description">${description}</p>
     <img class="proyect__img" src="${imgUrl}" alt="" />
-    <a class="proyect__link-demo" href="${linkDemo}" target="_blank">
-      <img class="proyect__link-demo-img" src="./imgs/redirect.png" alt="" />
-    </a>
-    <a class="proyect__link-github" href="${linkGithub}" target="_blank">Ver código</a>
+    <a class="proyect__link-demo" href="${linkDemo}" target="_blank">Demo</a>
+    <a class="proyect__link-github" href="${linkGithub}" target="_blank">Code</a>
 </div>
 `;
 
